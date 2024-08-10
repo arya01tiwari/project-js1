@@ -1,0 +1,45 @@
+/* Basic span button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    color: #fff; /* Default text color */
+}
+
+/* Styling by ID for different colors */
+#grey {
+    background-color: #615e5e;
+}
+
+#grey:hover {
+    background-color: #535252;
+}
+#pink {
+    background-color: #ecb5d5;
+}
+
+#pink:hover {
+    background-color: #f5b1cd;
+}
+
+
+#blue {
+    background-color: #2a27d4;
+}
+
+#blue:hover {
+    background-color: #451df7;
+}
+#yellow {
+    background-color: #dcf06d;
+}
+
+#yellow:hover {
+    background-color: #faf754;
+}
+
